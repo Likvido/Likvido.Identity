@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Likvido.Identity", "Likvido.Identity\Likvido.Identity.csproj", "{F168E1F3-FD06-4932-A906-53BDEACAE27E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{4A41255C-63A3-4E9F-9F50-3AA561FD2C4F}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		global.json = global.json
+		version.props = version.props
+		..\.github\dependabot.yml = ..\.github\dependabot.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workflows", "Workflows", "{F544C806-86CA-42EC-8D26-468ABB373D4F}"
+	ProjectSection(SolutionItems) = preProject
+		..\.github\workflows\nuget.yml = ..\.github\workflows\nuget.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F168E1F3-FD06-4932-A906-53BDEACAE27E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F168E1F3-FD06-4932-A906-53BDEACAE27E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F168E1F3-FD06-4932-A906-53BDEACAE27E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F168E1F3-FD06-4932-A906-53BDEACAE27E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F544C806-86CA-42EC-8D26-468ABB373D4F} = {4A41255C-63A3-4E9F-9F50-3AA561FD2C4F}
+	EndGlobalSection
+EndGlobal
