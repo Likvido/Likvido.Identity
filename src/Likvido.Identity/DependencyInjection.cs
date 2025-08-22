@@ -1,13 +1,14 @@
 using Likvido.Identity.PrincipalProviders;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 
 namespace Likvido.Identity
 {
     public static class DependencyInjection
     {
-        public static void AddNullPrincipalProvider(this IServiceCollection services)
+        public static void TryAddNullPrincipalProvider(this IServiceCollection services)
         {
-            services.AddSingleton<IPrincipalProvider, NullPrincipalProvider>();
+            services.TryAddSingleton<IPrincipalProvider, NullPrincipalProvider>();
         }
     }
 }
