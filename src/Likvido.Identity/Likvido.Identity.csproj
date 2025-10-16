@@ -9,9 +9,9 @@
     <Import Project="$(ProjectDir)../version.props" />
 
     <ItemGroup>
-      <PackageReference Include="Likvido.Domain.Enums" Version="1.0.0" />
-      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.8" />
-      <PackageReference Include="System.Text.Json" Version="9.0.8" />
+      <PackageReference Include="Likvido.Domain.Enums" Version="1.0.1" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.10" />
+      <PackageReference Include="System.Text.Json" Version="9.0.10" />
     </ItemGroup>
 
 </Project>
