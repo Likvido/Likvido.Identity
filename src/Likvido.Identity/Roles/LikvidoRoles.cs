@@ -2,16 +2,17 @@ namespace Likvido.Identity.Roles
 {
     public static class LikvidoRoles
     {
-        public static string[] VisibleRoles = 
-        { 
+        public static string[] VisibleRoles =
+        {
             Internals.Manager,
             Internals.Product,
             Internals.Operations,
             Internals.Payout,
             Internals.Owner,
+            Internals.Support,
             Internals.LikvidoEmployee,
-            Creditors.Creditor, 
-            Creditors.CreditorEmployee 
+            Creditors.Creditor,
+            Creditors.CreditorEmployee
         };
 
         public static string[] All =
@@ -21,6 +22,7 @@ namespace Likvido.Identity.Roles
             Internals.Operations,
             Internals.Payout,
             Internals.Owner,
+            Internals.Support,
             Internals.LikvidoEmployee,
             Creditors.Creditor,
             Creditors.CreditorEmployee,
@@ -35,6 +37,7 @@ namespace Likvido.Identity.Roles
             Internals.Operations,
             Internals.Payout,
             Internals.Owner,
+            Internals.Support,
         };
 
         public static string[] CreditorRoles = { Creditors.CreditorEmployee, Creditors.Creditor };
@@ -48,6 +51,7 @@ namespace Likvido.Identity.Roles
             public const string Product = "product";
             public const string Payout = "payout";
             public const string Owner = "owner";
+            public const string Support = "support";
         }
 
         public static class Creditors
