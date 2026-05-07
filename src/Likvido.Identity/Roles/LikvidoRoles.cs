@@ -12,7 +12,8 @@ namespace Likvido.Identity.Roles
             Internals.Support,
             Internals.LikvidoEmployee,
             Creditors.Creditor,
-            Creditors.CreditorEmployee
+            Creditors.CreditorEmployee,
+            Internals.LegalHold
         };
 
         public static string[] All =
@@ -26,7 +27,8 @@ namespace Likvido.Identity.Roles
             Internals.LikvidoEmployee,
             Creditors.Creditor,
             Creditors.CreditorEmployee,
-            Debtors.Debtor
+            Debtors.Debtor,
+            Internals.LegalHold
         };
 
         public static string[] LikvidoInternalRoles =
@@ -38,10 +40,11 @@ namespace Likvido.Identity.Roles
             Internals.Payout,
             Internals.Owner,
             Internals.Support,
+            Internals.LegalHold
         };
 
         public static string[] CreditorRoles = { Creditors.CreditorEmployee, Creditors.Creditor };
-        public static string[] HighSensitivityRoles = { Internals.Owner, Internals.Payout };
+        public static string[] HighSensitivityRoles = { Internals.Owner, Internals.Payout, Internals.LegalHold };
 
         public static class Internals
         {
@@ -52,6 +55,8 @@ namespace Likvido.Identity.Roles
             public const string Payout = "payout";
             public const string Owner = "owner";
             public const string Support = "support";
+
+            public const string LegalHold = "legalHold";
         }
 
         public static class Creditors
