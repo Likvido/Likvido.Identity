@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netstandard2.0</TargetFramework>
+        <TargetFramework>net10.0</TargetFramework>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <RepositoryUrl>https://github.com/Likvido/Likvido.Identity</RepositoryUrl>
     </PropertyGroup>
@@ -10,8 +10,7 @@
 
     <ItemGroup>
       <PackageReference Include="Likvido.Domain.Enums" Version="1.0.1" />
-      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.9" />
-      <PackageReference Include="System.Text.Json" Version="10.0.9" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.10" />
     </ItemGroup>
 
 </Project>
