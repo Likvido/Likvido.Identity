@@ -9,7 +9,7 @@
     <Import Project="$(ProjectDir)../version.props" />
 
     <ItemGroup>
-      <PackageReference Include="Likvido.Domain.Enums" Version="3.0.0" />
+      <PackageReference Include="Likvido.Domain.Enums" Version="3.1.0" />
     </ItemGroup>
 
     <ItemGroup>
